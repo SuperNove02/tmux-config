@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/sh
 BASEDIR=$PWD
 TMUXDIR=tmux
 echo $BASEDIR
 cd $BASEDIR
 
-ln -s ${PWD}/${TMUXDIR} ~/.config/${TMUXDIR}
+ln -sf ${PWD}/${TMUXDIR} ~/.config/${TMUXDIR}
